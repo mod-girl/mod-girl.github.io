@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+.menu{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#1b2538;
+}
+
+ul li{
+  float:left;
+  border-right:1px solid #bbb;
+}
+
+li a{
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+.active {
+  background-color: #da3c41;
+}
+
+.center{
+  text-align:center;
+}
